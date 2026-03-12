@@ -27,9 +27,18 @@ const user = {
 
         const  chai = ()  => {
          let username = "Kp"
-        console.log(this.username);
+        console.log(this);
       }
-
 
 //chai ()
 
+
+// const addtwo = (num1, num2) => {
+//     return num1 + num2
+// }
+
+//const addtwo = (num1, num2) =>  num1 + num2
+
+const addtwo = (num1, num2) =>  ({username:"kunal"})
+
+console.log(addtwo(3,4));
